@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Home from "./home/home";
-import Game from "./ttt/ttt";
+import TTTGame from "./ttt/ttt";
 import error from "./error/error";
 
 class App extends Component {
@@ -12,7 +12,7 @@ class App extends Component {
         <div>
           <Switch>
             <Route path={process.env.PUBLIC_URL + "/"} component={Home} exact/>
-            <Route path={process.env.PUBLIC_URL + "/ttt"} component={Game} />
+            <Route path={process.env.PUBLIC_URL + "/ttt"} component={TTTGame} />
             <Route component={error} />
           </Switch>
         </div>

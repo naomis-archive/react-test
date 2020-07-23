@@ -11,7 +11,7 @@ const error = () => {
       <p>
         Please open a{" "}
         <a
-          href="https://github.com/nhcarrigan/react-test/issues/new"
+          href="https://github.com/nhcarrigan/react-test/issues/new/choose"
           target="_blank"
           rel="noopener noreferrer"
         >

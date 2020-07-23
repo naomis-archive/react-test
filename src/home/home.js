@@ -13,7 +13,6 @@ function Home() {
         <li>
           <NavLink to={process.env.PUBLIC_URL + "/ttt"}>Tic-Tac-Toe</NavLink>
         </li>
-        <li><NavLink to={process.env.PUBLIC_URL + "/test"}>Broken link test</NavLink></li>
       </ul>
     </div>
   );
