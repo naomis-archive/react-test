@@ -1,9 +1,23 @@
 body {
   color: #ffffff;
-  background: purple;
+  background: #493b57;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
 }
