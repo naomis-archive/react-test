@@ -10,11 +10,10 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div>
-          <Home />
           <Switch>
-            <Route path="/" component={Home} exact/>
-            <Route path="/ttt" component={Game} />
-            <Route path="/clear" component={clear} />
+            <Route path={process.env.PUBLIC_URL + "/"} component={Home} exact/>
+            <Route path={process.env.PUBLIC_URL + "/ttt"} component={Game} />
+            <Route path={process.env.PUBLIC_URL + "/clear"} component={clear} />
           </Switch>
         </div>
       </BrowserRouter>

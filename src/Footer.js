@@ -11,8 +11,9 @@ function Footer() {
       >
         Nicholas Carrigan
       </a>
+      <p><a href={process.env.PUBLIC_URL + "/"}>Return Home</a></p>
     </footer>
   );
 }
 
-export default Footer
+export default Footer;
