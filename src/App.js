@@ -1,21 +1,25 @@
-import React from "react";
-import "./App.css";
+import React, { Component } from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-function App() {
-  return (
-    <div>
-      <h1>My React Pages!</h1>
-      <p>
-        These are the pages I have created during my attempts to learn React
-        (including this page here! :D)
-      </p>
-      <ul>
-        <li>
-          <a href="">Dummy link for now...</a>
-        </li>
-      </ul>
-    </div>
-  );
+import Home from "./home/home";
+import Game from "./ttt/ttt";
+import clear from "./clear/clear";
+
+class App extends Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <div>
+          <Home />
+          <Switch>
+            <Route path="/" component={Home} exact/>
+            <Route path="/ttt" component={Game} />
+            <Route path="/clear" component={clear} />
+          </Switch>
+        </div>
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;
