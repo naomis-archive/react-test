@@ -12,6 +12,8 @@ function Home() {
       <ul>
         <li>
           <NavLink to={process.env.PUBLIC_URL + "/ttt"}>Tic-Tac-Toe</NavLink>
+          </li><li>
+          <NavLink to={process.env.PUBLIC_URL + "/dice"}>Dice Roll Simulator</NavLink>
         </li>
       </ul>
     </div>

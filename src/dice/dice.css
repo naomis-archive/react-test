@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+
+.DiceButton {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #ae95c4;
+    color: #280a42;
+    border: #280a42 solid 5px;
+}
+
+#result {
+    font-size: 24px;
+    background-color: #000000
+}

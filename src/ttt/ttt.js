@@ -90,6 +90,8 @@ class TTTGame extends React.Component {
     if (winner) status = "Winner: " + winner;
     else status = "Next player: " + (this.state.xIsNext ? "X" : "O");
     return (
+      <div>
+      <h1>Tic Tac Toe</h1>
       <div className="game">
         <div className="game-board">
           <Board
@@ -101,6 +103,7 @@ class TTTGame extends React.Component {
           <div>{status}</div>
           <ol>{moves}</ol>
         </div>
+      </div>
       </div>
     );
   }
