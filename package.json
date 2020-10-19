@@ -1,6 +1,7 @@
 {
   "name": "react-test",
   "version": "0.1.0",
+  "license": "Hippocratic-2.1",
   "private": true,
   "homepage": "https://nhcarrigan.github.io/react-test",
   "dependencies": {
