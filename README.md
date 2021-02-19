@@ -7,7 +7,7 @@ These are the files for my test with React, which is still on my list to learn..
 
 ## Live Version
 
-This page is currently deployed. [View the live website.](https://www.nhcarrigan.com/react-test)
+This project is archived and thus is not deployed.
 
 ## Feedback and Bugs
 
