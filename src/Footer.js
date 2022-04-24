@@ -9,7 +9,7 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Nicholas Carrigan
+        Naomi Carrigan
       </a>
       <p><a href={process.env.PUBLIC_URL + "/"}>Return Home</a></p>
     </footer>
